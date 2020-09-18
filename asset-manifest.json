@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/SFS-QABugTestApp/static/js/main.0549d23c.chunk.js",
+    "main.js.map": "/SFS-QABugTestApp/static/js/main.0549d23c.chunk.js.map",
+    "runtime-main.js": "/SFS-QABugTestApp/static/js/runtime-main.28313224.js",
+    "runtime-main.js.map": "/SFS-QABugTestApp/static/js/runtime-main.28313224.js.map",
+    "static/css/2.6e96ff7d.chunk.css": "/SFS-QABugTestApp/static/css/2.6e96ff7d.chunk.css",
+    "static/js/2.193e91c0.chunk.js": "/SFS-QABugTestApp/static/js/2.193e91c0.chunk.js",
+    "static/js/2.193e91c0.chunk.js.map": "/SFS-QABugTestApp/static/js/2.193e91c0.chunk.js.map",
+    "index.html": "/SFS-QABugTestApp/index.html",
+    "precache-manifest.8cc621adc4dc532261c5bd3378b323ed.js": "/SFS-QABugTestApp/precache-manifest.8cc621adc4dc532261c5bd3378b323ed.js",
+    "service-worker.js": "/SFS-QABugTestApp/service-worker.js",
+    "static/css/2.6e96ff7d.chunk.css.map": "/SFS-QABugTestApp/static/css/2.6e96ff7d.chunk.css.map",
+    "static/js/2.193e91c0.chunk.js.LICENSE.txt": "/SFS-QABugTestApp/static/js/2.193e91c0.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/SFS-QABugTestApp/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28313224.js",
+    "static/css/2.6e96ff7d.chunk.css",
+    "static/js/2.193e91c0.chunk.js",
+    "static/js/main.0549d23c.chunk.js"
+  ]
+}

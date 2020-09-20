@@ -1,27 +1,59 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9bd8fdafb60c9e60024454c42da52c61",
+    "revision": "5c4475ac755176f44699b0909925cc77",
     "url": "/SFS-QABugTestApp/index.html"
   },
   {
-    "revision": "ee18457dbc156ae5cdc4",
+    "revision": "7d6ae4c5542e8c46b380",
     "url": "/SFS-QABugTestApp/static/css/2.6e96ff7d.chunk.css"
   },
   {
-    "revision": "ee18457dbc156ae5cdc4",
-    "url": "/SFS-QABugTestApp/static/js/2.193e91c0.chunk.js"
+    "revision": "712db8e53761997dd326",
+    "url": "/SFS-QABugTestApp/static/css/main.bce7f401.chunk.css"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/SFS-QABugTestApp/static/js/2.193e91c0.chunk.js.LICENSE.txt"
+    "revision": "7d6ae4c5542e8c46b380",
+    "url": "/SFS-QABugTestApp/static/js/2.4c26e2bd.chunk.js"
   },
   {
-    "revision": "d8e8a53a05e5371252ac",
-    "url": "/SFS-QABugTestApp/static/js/main.0549d23c.chunk.js"
+    "revision": "5bd09eb7f2cf4d145d532d862be18942",
+    "url": "/SFS-QABugTestApp/static/js/2.4c26e2bd.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "712db8e53761997dd326",
+    "url": "/SFS-QABugTestApp/static/js/main.02032b91.chunk.js"
   },
   {
     "revision": "68b7cb87dec7ac20445d",
     "url": "/SFS-QABugTestApp/static/js/runtime-main.28313224.js"
+  },
+  {
+    "revision": "4fe31e1e7b764c3ad974dc39a27c187d",
+    "url": "/SFS-QABugTestApp/static/media/Australia.4fe31e1e.jpg"
+  },
+  {
+    "revision": "2a7adc243ee585c28500b0da92da0dcc",
+    "url": "/SFS-QABugTestApp/static/media/France.2a7adc24.jpg"
+  },
+  {
+    "revision": "273a7fe6302745b6c914aabe25061c30",
+    "url": "/SFS-QABugTestApp/static/media/Greece.273a7fe6.jpg"
+  },
+  {
+    "revision": "f2bcfb4b9117ea52b28990ad9cb532d9",
+    "url": "/SFS-QABugTestApp/static/media/Logo.f2bcfb4b.png"
+  },
+  {
+    "revision": "434e1d7b9b68c58e5ecc0adc538cbfd7",
+    "url": "/SFS-QABugTestApp/static/media/UK.434e1d7b.jpg"
+  },
+  {
+    "revision": "512ec0f3f4554c492ab852192d9052da",
+    "url": "/SFS-QABugTestApp/static/media/airplane.512ec0f3.png"
+  },
+  {
+    "revision": "a459f77c33cac5cd60668f145ec172f9",
+    "url": "/SFS-QABugTestApp/static/media/background.a459f77c.jpg"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
@@ -42,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
     "url": "/SFS-QABugTestApp/static/media/brand-icons.e8c322de.woff2"
+  },
+  {
+    "revision": "5345c8dc4c121ea38f373712a2369938",
+    "url": "/SFS-QABugTestApp/static/media/china.5345c8dc.jpg"
   },
   {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
@@ -86,5 +122,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/SFS-QABugTestApp/static/media/outline-icons.ef60a4f6.woff"
+  },
+  {
+    "revision": "0a626adcf4a8dfdb8cb5b01338ab071c",
+    "url": "/SFS-QABugTestApp/static/media/united_states.0a626adc.jpg"
   }
 ]);

@@ -1,23 +1,35 @@
 {
   "files": {
-    "main.js": "/SFS-QABugTestApp/static/js/main.0549d23c.chunk.js",
-    "main.js.map": "/SFS-QABugTestApp/static/js/main.0549d23c.chunk.js.map",
+    "main.css": "/SFS-QABugTestApp/static/css/main.bce7f401.chunk.css",
+    "main.js": "/SFS-QABugTestApp/static/js/main.02032b91.chunk.js",
+    "main.js.map": "/SFS-QABugTestApp/static/js/main.02032b91.chunk.js.map",
     "runtime-main.js": "/SFS-QABugTestApp/static/js/runtime-main.28313224.js",
     "runtime-main.js.map": "/SFS-QABugTestApp/static/js/runtime-main.28313224.js.map",
     "static/css/2.6e96ff7d.chunk.css": "/SFS-QABugTestApp/static/css/2.6e96ff7d.chunk.css",
-    "static/js/2.193e91c0.chunk.js": "/SFS-QABugTestApp/static/js/2.193e91c0.chunk.js",
-    "static/js/2.193e91c0.chunk.js.map": "/SFS-QABugTestApp/static/js/2.193e91c0.chunk.js.map",
+    "static/js/2.4c26e2bd.chunk.js": "/SFS-QABugTestApp/static/js/2.4c26e2bd.chunk.js",
+    "static/js/2.4c26e2bd.chunk.js.map": "/SFS-QABugTestApp/static/js/2.4c26e2bd.chunk.js.map",
     "index.html": "/SFS-QABugTestApp/index.html",
-    "precache-manifest.8cc621adc4dc532261c5bd3378b323ed.js": "/SFS-QABugTestApp/precache-manifest.8cc621adc4dc532261c5bd3378b323ed.js",
+    "precache-manifest.73f68617074ba2e37d86b92b0e2b7571.js": "/SFS-QABugTestApp/precache-manifest.73f68617074ba2e37d86b92b0e2b7571.js",
     "service-worker.js": "/SFS-QABugTestApp/service-worker.js",
     "static/css/2.6e96ff7d.chunk.css.map": "/SFS-QABugTestApp/static/css/2.6e96ff7d.chunk.css.map",
-    "static/js/2.193e91c0.chunk.js.LICENSE.txt": "/SFS-QABugTestApp/static/js/2.193e91c0.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/SFS-QABugTestApp/static/media/outline-icons.ef60a4f6.woff"
+    "static/css/main.bce7f401.chunk.css.map": "/SFS-QABugTestApp/static/css/main.bce7f401.chunk.css.map",
+    "static/js/2.4c26e2bd.chunk.js.LICENSE.txt": "/SFS-QABugTestApp/static/js/2.4c26e2bd.chunk.js.LICENSE.txt",
+    "static/media/Australia.jpg": "/SFS-QABugTestApp/static/media/Australia.4fe31e1e.jpg",
+    "static/media/France.jpg": "/SFS-QABugTestApp/static/media/France.2a7adc24.jpg",
+    "static/media/Greece.jpg": "/SFS-QABugTestApp/static/media/Greece.273a7fe6.jpg",
+    "static/media/Logo.png": "/SFS-QABugTestApp/static/media/Logo.f2bcfb4b.png",
+    "static/media/UK.jpg": "/SFS-QABugTestApp/static/media/UK.434e1d7b.jpg",
+    "static/media/airplane.png": "/SFS-QABugTestApp/static/media/airplane.512ec0f3.png",
+    "static/media/_home.scss": "/SFS-QABugTestApp/static/media/background.a459f77c.jpg",
+    "static/media/semantic.min.css": "/SFS-QABugTestApp/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/china.jpg": "/SFS-QABugTestApp/static/media/china.5345c8dc.jpg",
+    "static/media/united_states.jpg": "/SFS-QABugTestApp/static/media/united_states.0a626adc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.28313224.js",
     "static/css/2.6e96ff7d.chunk.css",
-    "static/js/2.193e91c0.chunk.js",
-    "static/js/main.0549d23c.chunk.js"
+    "static/js/2.4c26e2bd.chunk.js",
+    "static/css/main.bce7f401.chunk.css",
+    "static/js/main.02032b91.chunk.js"
   ]
 }

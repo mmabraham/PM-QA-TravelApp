@@ -1,2 +1,0 @@
-(this["webpackJsonpqa-bug-test-app"]=this["webpackJsonpqa-bug-test-app"]||[]).push([[0],{3:function(e,t,n){e.exports=n(9)},9:function(e,t,n){"use strict";n.r(t);var a=n(0),r=n.n(a),c=n(2),p=n.n(c);var s=function(){return r.a.createElement("div",{className:"App"},"123")};n(8);p.a.render(r.a.createElement(r.a.StrictMode,null,r.a.createElement(s,null)),document.getElementById("root"))}},[[3,1,2]]]);
-//# sourceMappingURL=main.0549d23c.chunk.js.map

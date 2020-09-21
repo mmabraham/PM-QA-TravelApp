@@ -9,6 +9,7 @@ export default function Trip() {
           class="image-404"
           src="http://salehriaz.com/404Page/img/404.svg"
           width="300px"
+          alt="404"
         />
         <Link to="/">
           <a
@@ -25,17 +26,20 @@ export default function Trip() {
           class="object_rocket"
           src="http://salehriaz.com/404Page/img/rocket.svg"
           width="40px"
+          alt="404"
         />
         <div class="earth-moon">
           <img
             class="object_earth"
             src="http://salehriaz.com/404Page/img/earth.svg"
             width="100px"
+            alt="404"
           />
           <img
             class="object_moon"
             src="http://salehriaz.com/404Page/img/moon.svg"
             width="80px"
+            alt="404"
           />
         </div>
         <div class="box_astronaut">
@@ -43,6 +47,7 @@ export default function Trip() {
             class="object_astronaut"
             src="http://salehriaz.com/404Page/img/astronaut.svg"
             width="140px"
+            alt="404"
           />
         </div>
       </div>

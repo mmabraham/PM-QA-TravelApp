@@ -95,7 +95,8 @@ function App() {
   return (
     <div className="app">
       <div className="app-header">
-        <img src={logo} className="app-logo" />
+        <img src={logo} className="app-logo" alt=
+        "logo"/>
         <div className="app-header-text">
           <div>
             <h3>
@@ -114,7 +115,7 @@ function App() {
         <div className="app-banner-text">
           <h3>Save now and book yours next trip</h3>
           <Link to="/trip">
-            <img src={airplane} className="app-banner-text-icon" />
+            <img src={airplane} className="app-banner-text-icon" alt="airplane"/>
           </Link>
         </div>
         <hr></hr>
@@ -207,9 +208,9 @@ function App() {
           </div>
           <div className="app-views-wrapper-emoji">
             {totalSaveAmount() > totalSpend() ? (
-              <img src={happy} />
+              <img src={happy} alt="happy"/>
             ) : (
-              <img src={sad} />
+              <img src={sad} alt="sad"/>
             )}
 
             <h3>Congrats! Your family can afford the trip!</h3>

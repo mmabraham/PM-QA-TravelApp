@@ -1,9 +1,12 @@
 body {
   margin: 2rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Quicksand", sans-serif, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Quicksand", sans-serif,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 300;
 }
 
-@import "./styles/home.scss"
+@import "./styles/home.scss";
+@import "./styles/404.scss";

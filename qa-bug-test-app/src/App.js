@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import logo from "./assests/icon/Logo.png";
 import airplane from "./assests/icon/flights.jpg";
 import { Input } from "semantic-ui-react";
+import happy from "./assests/icon/happyFace.png";
+import sad from "./assests/icon/sadFace.png";
+import { Icon, Card, Image } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 function App() {
   //state
@@ -9,6 +13,58 @@ function App() {
   const [monthToSave, setmonthToSave] = useState("");
   const [numberAdults, setnumberAdults] = useState("");
   const [selectedCountry, setselectedCountry] = useState(0);
+
+  //data
+  const data = [
+    {
+      name: "China",
+      hotelFee: 400,
+      airfareFee: 940,
+      total: 1340,
+      alt: "china",
+      url: "./assests/landmarkImages/UK.jpg",
+    },
+    {
+      name: "Australia",
+      hotelFee: 450,
+      airfareFee: 1300,
+      total: 2000,
+      url: "./assests/landmarkImages/Australia.jpg",
+      alt: "australia",
+    },
+    {
+      name: "France",
+      hotelFee: 500,
+      airfareFee: 1250,
+      total: 1750,
+      url: "./assests/landmarkImages/France.jpg",
+      alt: "france",
+    },
+    {
+      name: "Greece",
+      hotelFee: 400,
+      airfareFee: 1000,
+      total: 1400,
+      url: "./assests/landmarkImages/Greece.jpg",
+      alt: "greece",
+    },
+    {
+      name: "United Kingdom",
+      hotelFee: 30,
+      airfareFee: 130,
+      total: 160,
+      url: "./assests/landmarkImages/china.jpg",
+      alt: "uk",
+    },
+    {
+      name: "United Sates of America",
+      hotelFee: 550,
+      airfareFee: 1100,
+      total: 1650,
+      url: "./assests/landmarkImages/united_states.jpg",
+      alt: "us",
+    },
+  ];
 
   //methoads
   const handleAmountToSaveInputChange = (event) => {
@@ -32,52 +88,9 @@ function App() {
     }
   };
 
-  //data
-  const data = [
-    {
-      name: "China",
-      hotelFee: 400,
-      airfareFee: 940,
-      total: 1340,
-      url: "./assests/landmarkImages/UK.jpg",
-    },
-    {
-      name: "Australia",
-      hotelFee: 450,
-      airfareFee: 1300,
-      total: 2000,
-      url: "./assests/landmarkImages/Australia.jpg",
-    },
-    {
-      name: "France",
-      hotelFee: 500,
-      airfareFee: 1250,
-      total: 1750,
-      url: "./assests/landmarkImages/France.jpg",
-    },
-    {
-      name: "Greece",
-      hotelFee: 400,
-      airfareFee: 1000,
-      total: 1400,
-      url: "./assests/landmarkImages/Greece.jpg",
-    },
-    {
-      name: "United Kingdom",
-      hotelFee: 600,
-      airfareFee: 1500,
-      total: 2100,
-      url: "./assests/landmarkImages/china.jpg",
-    },
-    {
-      name: "United Sates of America",
-      hotelFee: 550,
-      airfareFee: 1100,
-      total: 1650,
-      url: "./assests/landmarkImages/united_states.jpg",
-    },
-  ];
-  
+  const totalSpend = () => {
+    return data[selectedCountry].total * numberAdults;
+  };
 
   return (
     <div className="app">
@@ -100,7 +113,9 @@ function App() {
       <div className="app-banner">
         <div className="app-banner-text">
           <h3>Save now and book yours next trip</h3>
-          <img src={airplane} />
+          <Link to="/trip">
+            <img src={airplane} className="app-banner-text-icon" />
+          </Link>
         </div>
         <hr></hr>
       </div>
@@ -160,31 +175,66 @@ function App() {
       </div>
       <div className="app-views">
         <div>
-          <h3>Here are some countries we provide service.</h3>
+          <h2>Here are some countries we offer services.</h2>
         </div>
         <div className="app-views-wrapper">
           <div className="app-views-wrapper-info">
+            <p>*Below price is per adult, children is $100 less.</p>
             <Input
               fluid
               label="Airfare"
-              value={data[0].airfareFee}
+              value={data[selectedCountry].airfareFee}
               className="app-views-wrapper-info-input"
             />
             <Input
               fluid
               label="Hoteal"
-              value={data[0].hotelFee}
+              value={data[selectedCountry].hotelFee}
               className="app-views-wrapper-info-input"
             />
             <Input
               fluid
               label="Cost Per Adult"
-              value={data[0].total}
+              value={data[selectedCountry].total}
+              className="app-views-wrapper-info-input"
+            />
+            <Input
+              fluid
+              label="Total Cost"
+              value={totalSpend()}
               className="app-views-wrapper-info-input"
             />
           </div>
+          <div className="app-views-wrapper-emoji">
+            {totalSaveAmount() > totalSpend() ? (
+              <img src={happy} />
+            ) : (
+              <img src={sad} />
+            )}
+
+            <h3>Congrats! Your family can afford the trip!</h3>
+          </div>
           <div className="app-views-wrapper-img">
-            <img src={require(`${data[0].url}`)} />
+            <Icon
+              name="angle left"
+              size="big"
+              className="app-views-wrapper-img-arrow"
+              onClick={() => setselectedCountry(selectedCountry - 1)}
+            />
+            <Card>
+              <Image src={require(`${data[selectedCountry].url}`)} />
+              <Card.Content>
+                <Card.Header className="app-views-wrapper-img-header">
+                  {data[selectedCountry].name}
+                </Card.Header>
+              </Card.Content>
+            </Card>
+            <Icon
+              name="angle right"
+              size="big"
+              className="app-views-wrapper-img-arrow"
+              onClick={() => setselectedCountry(selectedCountry + 1)}
+            />
           </div>
         </div>
       </div>

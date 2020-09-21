@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2c667dfe2eb4ffb96b5cb297d965cf6",
+    "revision": "b64b5186c2eb1cb64909249de833994d",
     "url": "/SFS-QABugTestApp/index.html"
   },
   {
-    "revision": "192f69d1ca30b2e181f0",
+    "revision": "3e03b995688048570da3",
     "url": "/SFS-QABugTestApp/static/css/2.6e96ff7d.chunk.css"
   },
   {
-    "revision": "01763e46c742b156998c",
-    "url": "/SFS-QABugTestApp/static/css/main.bce7f401.chunk.css"
+    "revision": "ee4c9e8e2ef5e99d12f8",
+    "url": "/SFS-QABugTestApp/static/css/main.414f2542.chunk.css"
   },
   {
-    "revision": "192f69d1ca30b2e181f0",
-    "url": "/SFS-QABugTestApp/static/js/2.bf077d30.chunk.js"
+    "revision": "3e03b995688048570da3",
+    "url": "/SFS-QABugTestApp/static/js/2.f02835e8.chunk.js"
   },
   {
     "revision": "5bd09eb7f2cf4d145d532d862be18942",
-    "url": "/SFS-QABugTestApp/static/js/2.bf077d30.chunk.js.LICENSE.txt"
+    "url": "/SFS-QABugTestApp/static/js/2.f02835e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "01763e46c742b156998c",
-    "url": "/SFS-QABugTestApp/static/js/main.f4045ed2.chunk.js"
+    "revision": "ee4c9e8e2ef5e99d12f8",
+    "url": "/SFS-QABugTestApp/static/js/main.b6f0b4a1.chunk.js"
   },
   {
     "revision": "68b7cb87dec7ac20445d",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f2bcfb4b9117ea52b28990ad9cb532d9",
     "url": "/SFS-QABugTestApp/static/media/Logo.f2bcfb4b.png"
+  },
+  {
+    "revision": "0383a250e987fe737edbf2518f208bc7",
+    "url": "/SFS-QABugTestApp/static/media/No-image-found.0383a250.jpg"
   },
   {
     "revision": "434e1d7b9b68c58e5ecc0adc538cbfd7",
@@ -78,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
     "url": "/SFS-QABugTestApp/static/media/flags.9c74e172.png"
+  },
+  {
+    "revision": "1f14fa7cb90208c89530056fece5dc02",
+    "url": "/SFS-QABugTestApp/static/media/happyFace.1f14fa7c.png"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
@@ -118,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/SFS-QABugTestApp/static/media/outline-icons.ef60a4f6.woff"
+  },
+  {
+    "revision": "d64e3e870a11a6243c1b593e9d4ed61e",
+    "url": "/SFS-QABugTestApp/static/media/sadFace.d64e3e87.png"
   },
   {
     "revision": "0a626adcf4a8dfdb8cb5b01338ab071c",

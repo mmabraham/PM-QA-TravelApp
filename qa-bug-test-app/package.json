@@ -2,7 +2,7 @@
   "name": "qa-bug-test-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://strategicfs.github.io/SFS-QABugTestApp/",
+  "homepage": "https://breiss-git.github.io/PM-QA-TravelApp/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
